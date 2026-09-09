@@ -7,3 +7,8 @@ B=++a; es diferente a B=a++, preincremento y postincremento.
 EJEMPLO 
 B=++a; el primero incremento B queda con 11
 mientras que en el segundo B queda con 10, y a con 11.
+
+Cuando no se puede usar el operadir ++. cuando hay una expresion aritmetica por calculara.
+Ejemplo 
+x=++(a+1)
+
