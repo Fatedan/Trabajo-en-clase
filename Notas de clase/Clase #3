@@ -12,3 +12,46 @@ Cuando no se puede usar el operadir ++. cuando hay una expresion aritmetica por 
 Ejemplo 
 x=++(a+1)
 
++= es igual a c=c+7
+-= es igual a c=c-7
+*= es igual a c=c*7
+/= es igual a c=c/7
+%= es igual a c=c%7  %division entera, el residuo de la division..
+
+cuando usaos parentesis en una expresion aritmetica, unicamente son parentesis.
+los parentesis tienen prioridad.
+asociatividad 
+a/b/c tienen la prioridad de izquerda a derecha, es decir primero se hace a/b y luego el resultado se divide entre c..
+(a/b)/c asociatividad de izquierda a dercha. 
+a/(b/c) asocicatividad de derecha a izquierda, primero se hace b/c y luego a se divide entre el resultado.
+
+++,-- ("pos") izquierda a derecha. 
+++,-- ("pre") derecha a izquierda.
+
+la biblioteca de funciones matematicas <xmath.h>
+exp(x) = e^x
+fabs(x) = valor absoluto de x
+floor(x)=funcion piso.
+log(x)= logaritmo natural.
+log10(x)= logaritmo en base 10
+por(x,y)= x a la potencia de y.
+sin(x)= seno de x. 
+celi(x) = funcion techo. 
+
+estructura de control de flujo, if, else if, else.
+
+Si los tipos de las dos varibales que participan en la operacion no se coinciden, entonces la operacion 
+se realizaea como las dos fueran del mismo tipo de dato. 
+Ejemplo: 
+b=a*v, con a long double y v int, entonces b es long double. 
+
+Ejemplo: 
+int i=8,j=3;
+duble x= .5,u,z;
+u=i/j*x, i/j es 2, pues son enteros. y x es doble, luego u es 3 de tipo doble. 
+
+El programa es secuencial. 
+Proceder, ejecutar, cambiar orden. 
+estas acciones se llaman algoritmos.
+pseudo codigo es un lenguaje artificial e informal que ayuda a los programadores a desarrollar algoritmos.
+
