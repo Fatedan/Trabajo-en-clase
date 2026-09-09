@@ -1,0 +1,9 @@
+++:=nos sirve para aumenatr el valor de a 
+int a; 
+a++; incrementa en 1 al valor a. 
+tambien se tiene la opcion a=a+1, la cual hace lo mismo a a++.
+tambien esta la opcion a+=1.
+B=++a; es diferente a B=a++, preincremento y postincremento.
+EJEMPLO 
+B=++a; el primero incremento B queda con 11
+mientras que en el segundo B queda con 10, y a con 11.
