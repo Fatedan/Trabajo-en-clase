@@ -1,0 +1,41 @@
+Estructuras de control 
+Operadore relacionales y logicos 
+< > <= >= (menor, mayor, menor o igual, mayor o igual)
+(a==3) (es igual, su valo de verdad).
+!= (no es igual)
+&& (and logica)
+|| (or logica)
+! (negacion)
+para criterios de parada de algoritmo es hacer algoritmo hasta que algo se cumple. hasta cumplir ley de morgan.
+
+
+Operador if: 
+if (condicion) operador; (entonces se realiza algo)
+si la condicion es verdadera se ejecuta el operador, si no se cumple no se ejecuta nada. 
+
+if (condicion)
+{setencial; si son mas de una no es necesario usar llaves.
+}
+operador ...  
+
+else {sentecias}; (en caso contrario se ejecuta esto) 
+
+Ejemplos: 
+
+else a=3;
+d=4; d esta fuera de else, por lo que eso no es una condicion para cumplirse en else. 
+para ello se usan llaves para agrupar sentencias.
+
+
+operador FOR.
+
+la estrucutura FOR permite repetir varias veces una operacion. 
+
+for(inicializacion; criterio de continuacio; modificacion)
+{
+
+setencias 
+
+}
+
+for (i=n, i<2; )
