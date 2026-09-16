@@ -1,0 +1,53 @@
+Estrutura ciclica while
+una estrucutura que sirve para contruir ciclos 
+puede suceder que no se realiza ninguna iteraion (si la condocion desde la primera vez no se cumple)
+setencia 
+
+While(condicion)
+{
+cuerpo de while
+
+}
+
+estructura ciclica dowwhile 
+do {(la primera condicion siempre se hace )
+    operadores
+} 
+while (codicion)
+{}
+
+ejemplo: 
+
+// Programa de promedio de una clase mediante una repetición controlada por contador.
+#include <iostream>
+#include <conio>
+
+// la función main comienza la ejecución del programa
+int main()
+{
+   int total;        // suma de las calificaciones introducidas por el usuario
+   int contadorCalificacion; // número de la siguiente calificación a introducir
+   int calificacion;        // valor de la calificación
+   int promedio;      // promedio de las calificaciones
+
+   // fase de inicialización
+   total = 0;          // sumatoria
+   contadorCalificacion = 1;   // inicializa el contador del ciclo
+
+   // fase de proceso
+   while ( contadorCalificacion <= 10 ) {       // repite diez veces
+      cout << "Introduzca la calificacion: ";          // indicador para entrada
+      cin >> calificacion;                     // lee calificación del usuario
+      total = total + calificacion;            // suma calificación al total
+      contadorCalificacion = contadorCalificacion + 1;  // incrementa el contador
+   }
+
+   // fase de término
+   promedio = total / 10;                // división entera
+
+   // despliega el resultado
+   cout << "El promedio de la clase es " << promedio << endl;  
+   getch();
+   return 0;   // indica que el programa terminó satisfactoriamente
+
+} // fin de la función main
