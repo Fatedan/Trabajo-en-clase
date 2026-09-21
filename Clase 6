@@ -1,0 +1,43 @@
+Estrucuturas 3
+Swich (variable (tipo int o char))
+{
+case valor_1:
+    setencia;
+    break;
+case valor_2:
+    setencia;
+    break;
+    ...
+default(junta casos):
+sentecias;
+
+
+
+}
+
+
+operador continue. permite saltar de la parte restante del cuerpo de un bucle 
+for while o do/while. 
+
+perimite seguir.
+
+if (res==0) continue ; 
+
+estrucutura break: 
+puede detener interrumpe las iteraciones. su diferencia con continue es que continue salta una, 
+mientras break lo termina todo.
+
+
+estrucutura Goto. 
+
+tranferencias de control. 
+da una etiqueta edintificado con dos puntos.
+
+{
+
+    ...
+    goto final1;
+    ... 
+final1: a=a+2 // "final de la etiqueta."
+}
+
